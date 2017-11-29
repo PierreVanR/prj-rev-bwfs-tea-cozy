@@ -1,0 +1,129 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header{
+  position: fixed;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 5;
+}
+
+.logo{
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.logo img{
+  height: inherit;
+  width: inherit;
+}
+
+nav{
+    margin-right: 10px;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+#mission{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+}
+
+#mission .text{
+  background-color: black;
+  width: 100%;
+}
+
+#tea{
+  margin: 100px auto;
+  width: 1000px;
+  height: auto;
+}
+
+.contimages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contimage{
+  width: 300px;
+  height: auto;
+  margin: 0px 15px;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+}
+
+.contimage .text{
+  margin-top: 10px;
+}
+
+#locations{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.maincontloc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contlocations{
+  display: flex;
+  margin-top: 15px;
+}
+
+.contlocation{
+  width: 300px;
+  height: auto;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+.footer .text{
+  height: 200px;
+}
+
+.copyright{
+  text-align: left;
+  margin-left: 20px;
+}
